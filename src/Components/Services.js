@@ -24,9 +24,10 @@ function Services() {
         <div className="discription">
           <h2>What we’re great at</h2>
           <p>Fourteen years and 400+ finished web projects have gifted us a unique experience on how to create something that is easy to use, looks great and earns a profit for your company.</p>
-          <Button variant="outlined" color="primary">
-  FULL DETAILS
-</Button>
+          <div className={classes.root}>
+      <Button variant="contained" color="primary">
+        Full Details
+      </Button></div>
         </div>
         <div className="service-detail">
           <div className="service">
