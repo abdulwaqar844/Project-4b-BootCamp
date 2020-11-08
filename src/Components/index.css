@@ -1,0 +1,116 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+
+}
+.main>p {
+    }
+li{padding: 20px;
+    list-style-type: none;
+}
+.main{
+    background-image: url(../Images/home-header.svg);
+    background-size: fill;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+padding: 20px;
+color: white;
+margin-top: 18px;
+    margin-bottom: 3rem;
+    line-height: 50px;
+    
+}
+.detail-section{
+    width: 50%;
+}
+.animation{
+    width: 50%;
+align-content: center;
+margin: 40px;
+padding-left: 100px;
+padding-top: 70px;
+}
+
+.service-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Service-section{
+    text-align: center;
+}
+.discription{
+    background-color:#F0F8F7;
+    height: 500px;
+    width: 100%;
+    margin-top: 0;
+}
+.services { 
+    padding: 10px;
+   margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service { 
+    height: 100%;
+    width: 80%;
+    text-align: left;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+
+    }
+.service-detail{
+    display: flexbox;
+    flex-direction: column;
+}
+.portfolio-section{
+    text-align: center;
+    background-color:#F0F8F7;
+    color: #0F4848;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.portfolio-section>h4{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.portfolio-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio>img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio-content>div{
+
+    flex: 0 50%;
+    box-sizing: border-box;
+}
+.portfolio{
+    padding-bottom: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
